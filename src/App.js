@@ -16,7 +16,7 @@ spotifyApi.setAccessToken('BQCuU8YqmCOqdC9p9DRz6voyZ-vAdicjBrrbNGj89hhwstNug9yf7
 function App() {
   const CLIENT_ID = "f7d19cc8039b471d87f32ba9c5a7fdd6";
   const CLIENT_SECRET ="BQB9r60DXk66xyvLldr3Jh_PCK0qUUlfVrfnpPbxZtb";
-  const token = localStorage.setItem("token", "BQApMKXzZgrrsMyAqpTNPeEUqcDMK7YRkpP7xxgN7zCS11eMvYrwuE5URMcQ0SJsPY7z_Pg923cQsh-XPlIO0Ha19I9HInSdOcXuzNFEjx3Y6nzyJxvte-MHztcTkVORXzDTsw_fvSjlMSUN4gPsWliJtoQ6ZHbDDuM");
+  const token = localStorage.setItem("token", "BQC2pQVNv8P3u_8NSitnr58pEtPPXKBcK-NPuf7r7n3XrNrmgDnZ8qmZbLozUivpq86wgsBEUhkG56Hd9xX3ngCSWg2cJNaSBqj4mjqWOOPRyVsDrh-NUakSxN7d2X75raCxBtk8GA-3afYwpvrg801PfN1nRLaqObo");
 
   useEffect(()=>{
     spotifyApi.getArtistAlbums('43ZHCT0cAZBISjO8DG9PnE').then(
