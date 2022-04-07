@@ -2,6 +2,7 @@ import types from "../types"
 import axios from "axios";
 
 const token = localStorage.getItem("token");
+
 export const getAllPlaylist = () => async (dispatch) => {
   dispatch({type: types.GET_NEW_RELEASE_REQUEST}); 
   await axios({
@@ -14,7 +15,7 @@ export const getAllPlaylist = () => async (dispatch) => {
       console.log("response data", res.data);
      dispatch({type: types.GET_NEW_RELEASE_SUCCESS, payload: res.data.albums.items}); 
   }).catch((error)=>{
-      console.log(error.response);
+      console.log(error.response.data.error);
   })
 }   
 
