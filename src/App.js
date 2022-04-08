@@ -14,7 +14,7 @@ import jwt_decode from "jwt-decode";
 // spotifyApi.setAccessToken('BQCuU8YqmCOqdC9p9DRz6voyZ-vAdicjBrrbNGj89hhwstNug9yf7vMl1WKN4BEMu_LGFYG0dzBAgGgov97zxW9RGgWPEpN2oNVtr8lgBA8Zo_Lw5p4kcwmJ7-YUc4CtBeSt11wW0eq8sku-v9RAQuOPe2L4MlJci-8');
 function App() {
 
-  const token = localStorage.setItem("token", "BQDvICaPuUfWKDqvj59HgVQvRDUCGNyHM5_8ddaGH95G16hU-fCQ5KsdQ_0wI-_QNEPkaBlpbqS2tXiWMZ6-XVtcMx7l_GiJABkv3dy-HZ_Qd-2WHAvUGVAn-yt1N76ILhZ2BicbmiyUHG13XH5UDCHPq6NwbK-Zv3c");
+  const token = localStorage.setItem("token", "BQB0sY5hi5H9R0VM9SHaOru9LtREAk9GfEL-9yYKxQ1yKPA_k_hqiJkHvDiTOmtNZhiPVqKcTNcKCuxvwLczd6s-lSO87B_kKRatARCnSJE-qcyAFk9FesYiyt3l8gpKHPsmp6JPTIQRRpNthlKAMnM4g9xTPjH8wLY");
 
   // useEffect(()=>{
   //   spotifyApi.getArtistAlbums('43ZHCT0cAZBISjO8DG9PnE').then(

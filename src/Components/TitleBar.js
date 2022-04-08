@@ -26,14 +26,15 @@ hr {
     top: 27px;
     left : 10px;
 }
-@media only screen and (max-width: 600px) { 
-    width: 52%;
+@media only screen and (max-width: 1000px) { 
+    width:80%;
     font-weight: 800;
     margin : 10% 0px 0px 14%;
     hr { 
         position: relative;
         top: 27px;
-        left : 10px;
+        margin-right: 320px;
+        width: 10px;
     }
 }
 ` 

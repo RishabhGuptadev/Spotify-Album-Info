@@ -85,6 +85,7 @@ const Wrapper = styled.div`
     width: 100%
   }
   @media only screen and (max-width: 1000px) { 
+ 
     width: 18%;
     .image-style {
       margin-top: 70px;
@@ -94,9 +95,12 @@ const Wrapper = styled.div`
     }
     .nav-btn{
       margin-bottom: 25%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
     }
     .nav-btn span { 
-      margin: 0px 10px 0px 22px;
+      margin: 0px 10px 0px 11px;
     }
     .nav-btn {
       font-size:0px;

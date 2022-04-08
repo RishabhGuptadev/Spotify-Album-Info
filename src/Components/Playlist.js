@@ -45,4 +45,9 @@ position: absolute;
 top : 23vh;
 right: 0;
 overflow-x: hidden;
+
+@media only screen and (max-width: 1000px) { 
+    width:82%;
+    margin-bottom: 10px;
+}
 `

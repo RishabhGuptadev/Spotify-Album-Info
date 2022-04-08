@@ -84,7 +84,7 @@ font-weight: 700;
 @media only screen and (max-width: 1000px) { 
     position: absolute;
     top: -7px;
-    left:67vw;
+    left:60vw;
     font-size: 28px;
 }
 `
